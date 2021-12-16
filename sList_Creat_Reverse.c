@@ -59,9 +59,9 @@ int main(){
 	Node *head = creatNode();//创建单链表
 	insert(head);
 	printf("正向输出");
-    print(head -> next);
-    printf("链表逆置")//链表逆置
-    printf("\n");
-    Node *Reverse = reverse(head -> next);
-    print(Reverse);
+   	print(head -> next);
+    	printf("链表逆置")//链表逆置
+    	printf("\n");
+    	Node *Reverse = reverse(head -> next);
+    	print(Reverse);
 }

@@ -1,7 +1,7 @@
 /**------------------------------**
     user:Liujiahuan
     For:PTA6-8
-	  Time:2021/12/16
+    Time:2021/12/16
     Description:
 **------------------------------*/
 #include <stdio.h>

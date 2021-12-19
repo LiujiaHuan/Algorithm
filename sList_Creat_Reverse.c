@@ -52,6 +52,16 @@ Node* reverse(Node *now_node){
 	//处理最后一个节点，因为最后一个节点的下一个是NULL所以while不会处理
 	return now_node;//返回“第一个节点”
 }
+/*struct ListNode *reverse(struct ListNode *head){
+	struct ListNode *pre,*temp;
+	while(head!=NULL){
+		temp = head -> next;
+		head -> next = pre;
+		pre = head;
+		head = temp;		
+	}
+	return pre;
+}*/
 
 
 
